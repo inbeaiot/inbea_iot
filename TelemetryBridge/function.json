@@ -1,0 +1,12 @@
+
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "uplink-data",
+      "connection": "SERVICEBUS_CONNECTION_STRING"
+    }
+  ]
+}
