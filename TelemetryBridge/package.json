@@ -1,0 +1,13 @@
+{
+  "name": "iotc-telemetrybridge",
+  "version": "1.0.0",
+  "description": "Azure IoT Central TelemetryBridge",
+  "main": "index.js",
+  "dependencies": {
+    "azure-iot-device": "*",
+    "azure-iot-device-mqtt": "*",
+    "azure-iot-provisioning-device": "*",
+    "azure-iot-provisioning-device-mqtt": "^1.8.1",
+    "azure-iot-security-symmetric-key": "*"
+  }
+}
